@@ -31,7 +31,7 @@ const CreateFolder = (props) => {
         props.setFetching(true)
         try {
             const response = await instance.post('files/upload',{
-                name:newFile,
+                
                 
             })
             props.setActiveChild(false)
