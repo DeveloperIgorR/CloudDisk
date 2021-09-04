@@ -1,0 +1,11 @@
+.selections button{
+    outline:0 none ;
+    border:none;
+    background-color: #222A3F;
+}
+.selections select{
+    background-color: #222A3F;
+    border:none;
+    color:#566885; 
+    outline: none;
+}

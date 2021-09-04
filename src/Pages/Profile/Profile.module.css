@@ -1,0 +1,107 @@
+.profile{
+    display: grid;
+    grid-template-rows: 1fr 20fr;   
+    grid-template-areas: 
+      'a'
+      'b';    
+    height: 100vh;
+ }
+.top{
+    grid-area: a;
+    background-color: #566885;
+    display: flex;
+    justify-content:space-evenly;
+    align-items:center; 
+    
+ }
+.bottom{
+     grid-area: b;
+     background-color: #222A3F;
+     display: flex; 
+     flex-flow: column;   
+     align-items: center;
+     padding-top: 100px;
+     
+ }
+.component1{
+    display: flex;
+    align-items: center;    
+    justify-content: space-between; 
+    font-size: 20px ;
+    font-weight: bold;    
+    color:#F6F5F3; 
+}
+.component2 input{
+    border-radius: 13px;
+    border:#F6F5F3 1px solid;
+    background-color: #566885;
+    color: #F6F5F3;
+    background-image: url('../../Asets/Images/heroicons-solid_search.png');
+    background-repeat: no-repeat;
+    text-indent: 20px;
+    outline:none
+}
+.component2 input::placeholder{
+    color: #F6F5F3;
+}
+.backLogo button{
+    outline:0 none ;
+    border:#F6F5F3 1px solid ;
+    background-color: #566885;
+    border-radius: 15px;
+}
+.component3{   
+    display: flex;
+    align-items: center;     
+}
+.component3 input{
+    background-color: #566885;
+    border: none;
+    color: #F6F5F3;
+    font-size: 12px;
+    font-weight: bold;
+}
+.component4{
+    display: flex;
+    align-items: center;
+    flex-flow: column;  
+    margin-bottom: 20px; 
+}
+.component4 input{
+    background-color: #222A3F;
+    border: none;
+    text-align: center;
+    color: #F6F5F3;
+    font-size: 36px;
+    font-weight: bold;
+}
+.component5{
+    display: flex;
+    align-items: center;
+    flex-flow: column;
+}
+.component5 input{
+    background-color: #F6F5F3;
+    border-radius: 20px;
+    color:#222A3F;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px;
+    margin-bottom: 20px;
+    outline: none;
+}
+.component6{
+    display: flex;
+    justify-content: space-between;
+}
+.component6 button{
+    background-color: #566885;
+    color: #F6F5F3;
+    font-size: 13px;
+    font-weight: bold;
+    border-radius: 12px;
+    padding: 10px;
+    margin-right: 5px;
+    margin-left: 5px;    
+}

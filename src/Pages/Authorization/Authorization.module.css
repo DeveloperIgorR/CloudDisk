@@ -1,0 +1,35 @@
+.authorization{
+   display: grid;
+   grid-template-rows: 1fr 20fr;   
+   grid-template-areas: 
+     'a'
+     'b';  
+   height: 100vh;
+}
+.top{
+   grid-area: a;
+   background-color: #566885;
+   display: flex;
+   justify-content:space-between;
+   align-items:center; 
+   padding-left: 350px;
+   padding-right: 350px;
+}
+.bottom{
+    grid-area: b;
+    background-color: #222A3F;    
+    
+}
+.diskField{
+    display: flex;
+    align-items: center;    
+    justify-content: space-between; 
+    font-size: 20px ;
+    font-weight: bold;    
+    color:#F6F5F3; 
+}
+.top button{
+    border:none;
+    background-color: #566885;
+    color:#F6F5F3;
+}

@@ -1,0 +1,52 @@
+.openFolders{
+    display: flex;
+    padding-left: 150px;
+    padding-right: 350px;
+    margin: 5px;    
+    border-bottom: solid 1px #566885;
+    color: #F6F5F3;
+    align-items:center;
+    justify-content:space-between;
+}
+.openFolders button{
+    background-color: #222A3F;
+    border:none;
+}
+.leftGroopIcons{
+    display: flex;
+    justify-content: space-between;    
+}
+.rightGroopIcons{
+    display:flex;
+    justify-content: space-between;    
+}
+.openGroopFolders{
+    display: flex;     
+    color: #F6F5F3;
+    justify-content:first baseline;
+    flex-wrap: wrap;
+
+}
+.iconGroop{
+    display:flex;
+    align-items: center;
+    flex-flow: column
+}
+.iconGroop button{
+    background-color: #222A3F;
+    border:none;  
+    
+}
+.bigIconGroop{
+    display:flex;
+    align-items: center;
+    flex-flow: column
+}
+.bigIconGroop button{
+    background-color: #222A3F;
+    border:none;     
+}
+p{
+    margin-right: 10px;
+    margin-left: 10px;
+}

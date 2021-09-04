@@ -1,0 +1,117 @@
+.disk{
+   display: grid;
+   grid-template-rows: 1fr 20fr;
+   grid-template-columns: 3fr 7fr;
+   grid-template-areas: 
+     'a a'
+     'b c';  
+   height: 100vh;
+}
+.favourite{
+    grid-area: b;
+    background-color: #222A3F;    
+    border-right:#566885 2px solid;
+    padding-right: 15px;
+    padding-top: 30px;
+    padding-left: 350px;
+}
+.favourite h2{
+    color:white;
+}
+.openFolder{
+    grid-area: c;
+    background-color: #222A3F;  
+    
+}
+.folder{
+    color: #F6F5F3;    
+    margin: 7px;
+    font-size: 14px;
+}
+.folder button{
+    outline:0 none ;
+    border:none;
+    background-color: #222A3F;
+}
+.but button{
+    outline:0 none ;
+    border-radius: 12px;
+    background-color: #222A3F;  
+    border:#F6F5F3 1px solid ;
+}
+.header{
+    display: flex;
+    justify-content: space-evenly;
+    align-items:center;
+    color: #F6F5F3;
+}
+.header button{
+    outline:0 none ;
+    border:#F6F5F3 1px solid ;
+    background-color: #222A3F;
+    border-radius: 15px;
+}    
+
+.createButton{
+    display: flex;
+    justify-content: space-evenly;
+    align-items:center;
+    color: #F6F5F3;
+    
+}
+
+.topLineButton button{
+    color: #F6F5F3;
+    border:#F6F5F3 1px solid ;
+    border-radius: 7px;
+    background-color: #222A3F;
+    
+}
+.selections button{
+    outline:0 none ;
+    border:none;
+    background-color: #222A3F;
+}
+.selections select{
+    background-color: #222A3F;
+    border:none;
+    color:#566885; 
+    outline: none;
+}
+.nameField{
+    display: flex;
+    justify-content: space-evenly;
+    color:#566885;
+    border-bottom: solid 1px #566885;
+}
+.bottomLine{
+    padding-bottom: 25px;
+    border-bottom: solid 1px #566885;
+}
+.nameFieldRight{
+    display: flex;
+    justify-content:space-between;
+    margin-right:  10px;
+}
+.openFolders{
+    display: flex;
+    padding-left: 150px;
+    padding-right: 350px;
+    margin: 5px;    
+    border-bottom: solid 1px #566885;
+    color: #F6F5F3;
+    align-items:center;
+    justify-content:space-between;
+}
+.openFolders button{
+    background-color: #222A3F;
+    border:none;
+}
+.groop1{
+    display: flex;
+    justify-content: space-between;    
+}
+.groop2{
+    display:flex;
+    justify-content: space-between;    
+}

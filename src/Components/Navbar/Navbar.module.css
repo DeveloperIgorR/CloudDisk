@@ -1,0 +1,36 @@
+.auth{
+    grid-area: a;
+    background-color: #566885;
+ }
+.authField{
+    display: flex;    
+    justify-content:space-evenly;
+    align-items:center; 
+      
+}
+.diskField{
+    display: flex;
+    align-items: center;    
+    justify-content: space-between; 
+    font-size: 20px ;
+    font-weight: bold;    
+    color:#F6F5F3; 
+}
+.searchField input{
+    border-radius: 13px;
+    border:#F6F5F3 1px solid;
+    background-color: #566885;
+    color: #F6F5F3;
+    background-image: url('../../Asets/Images/heroicons-solid_search.png');
+    background-repeat: no-repeat;
+    text-indent: 20px;
+    outline:none
+}
+.searchField input::placeholder{
+    color: #F6F5F3;
+}
+.profileField{
+    display: flex;
+    align-items: center;    
+    justify-content: space-between; 
+}

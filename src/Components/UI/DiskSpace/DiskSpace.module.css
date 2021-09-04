@@ -1,0 +1,12 @@
+.OutsideWrapper{
+    width: 130px;
+    height: 20px;
+    border-radius: 13px;
+    background-color: white;
+}
+.InsideWrapper{
+    width: 130px;
+    height: 20px;
+    border-radius: 13px;
+    background-color: #566885;
+}
